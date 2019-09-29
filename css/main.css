@@ -1,0 +1,40 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#main-header{
+    position: relative;
+    background: url(../images/fondo-header.jpg);
+    background-size: cover;
+    min-height: 630px;
+}
+
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+
+.background-overlay{
+    position: absolute;
+    background: rgba(48, 51, 107,.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form-control, .btn{
+    border-radius: 0;
+}
+
+.equipo{
+    background: #30336b;
+}
+
+
+footer{
+    background: #f1f1f1;
+}
+
+.mapa{
+    margin-top: 75px;
+}
